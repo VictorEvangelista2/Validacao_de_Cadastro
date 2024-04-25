@@ -5,10 +5,38 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Redefina sua Senha</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='Validação.css'>
+    <script src='Validacao.js'></script>
 </head>
 <body>
-    
+    <div class="container">
+
+        <h1>Recuperar Senha</h1>
+
+        <form id="loginForm">
+
+            <div class="input-group">
+                <label for="email">Email para Verificação</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="number">Insira o Código Enviado</label>
+                <input type="number" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Insira sua Nova Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <p><a href="Validação.html">Volte para o login</a></p>
+
+            <button type="submit">Atualizar Senha</button> 
+
+        </form>
+
+        <div id="errorMessage"></div>
+    </div>
 </body>
 </html>

@@ -9,24 +9,35 @@
     <script src='Validacao.js'></script>
 </head>
 <body>
+
     <div class="container">
-        <h1>Login</h1>
+        <h1>Cadastre-se</h1>
         <form id="loginForm">
             <div class="input-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="text">Nome de Usuário</label>
+                <input type="text" id="email" name="email" required>
             </div>
+
             <div class="input-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="email">Email</label>
+                <input type="email" id="password" name="password" required>
             </div>
+
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="number" required>
+            </div>
+
             <div class="input-group">
                 <label for="number">Telefone</label>
                 <input type="number" id="password" name="number" required>
             </div>
-            <p><a href="Esquecisenha.html">Esqueci minha senha</a></p>
-            <button type="submit">Entrar</button> 
-            <p>Ainda não tem sua conta ?<a href="CadastreSe.html">Cadastre-se</a></p>
+            
+            <p><a href="Validação.html">Voltar para o login</a></p>
+
+            <button type="submit">Cadastre-se</button> 
+
+
         </form>
         <div id="errorMessage"></div>
     </div>
